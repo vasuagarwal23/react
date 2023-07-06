@@ -1,0 +1,22 @@
+body {
+  background-color: #000000;
+
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* column mai convert ka kam kar rahi hai */
+  grid-gap: 25px;
+}
+
+.box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  font-size: 35px;
+  color: #ffffff;
+}
